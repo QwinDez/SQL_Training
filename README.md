@@ -76,6 +76,7 @@
 ### D
 - DATE
 - DATETIME
+- DEFAULT
 - DECIMAL
 - DESC
 - DROP TABLE - команда для удаление таблицы из бд;
@@ -108,6 +109,8 @@
 - MAX
 - MIN
 ### N
+- NOT
+- NOT NULL
 - NULL
 ### O
 - ORDER BY
@@ -115,7 +118,11 @@
 ### Q
 ### R
 ### S
-- SELECT
+- SELECT - команда для выборки данных из таблицы
+	**Синтаксис:**
+	```
+		select <столбец1>, <столбец2>, <столбец3>, ... <столбецN> from <имя_таблицы>
+	```
 - SUM 
 ### T
 - TIMESTAMP 
